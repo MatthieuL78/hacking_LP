@@ -1,0 +1,273 @@
+I, [2018-05-09T23:24:13.053879 #15119]  INFO -- : [5ff9f71d-b3ec-42a9-a5a8-a605ed4b8eb3] Started GET "/" for 127.0.0.1 at 2018-05-09 23:24:13 +0200
+I, [2018-05-09T23:24:13.062473 #15119]  INFO -- : [5ff9f71d-b3ec-42a9-a5a8-a605ed4b8eb3] Processing by LandingpagesController#home as HTML
+I, [2018-05-09T23:24:13.071601 #15119]  INFO -- : [5ff9f71d-b3ec-42a9-a5a8-a605ed4b8eb3]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-09T23:24:13.072053 #15119]  INFO -- : [5ff9f71d-b3ec-42a9-a5a8-a605ed4b8eb3]   Rendered landingpages/home.html.erb within layouts/application (0.3ms)
+I, [2018-05-09T23:24:13.073342 #15119]  INFO -- : [5ff9f71d-b3ec-42a9-a5a8-a605ed4b8eb3] Completed 200 OK in 11ms (Views: 3.0ms)
+I, [2018-05-09T23:24:13.281329 #15119]  INFO -- : [3db1afe4-a533-4675-8c32-6fd98e79b348] Started GET "/" for 127.0.0.1 at 2018-05-09 23:24:13 +0200
+I, [2018-05-09T23:24:13.281855 #15119]  INFO -- : [3db1afe4-a533-4675-8c32-6fd98e79b348] Processing by LandingpagesController#home as HTML
+I, [2018-05-09T23:24:13.282539 #15119]  INFO -- : [3db1afe4-a533-4675-8c32-6fd98e79b348]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-09T23:24:13.282653 #15119]  INFO -- : [3db1afe4-a533-4675-8c32-6fd98e79b348]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-09T23:24:13.283106 #15119]  INFO -- : [3db1afe4-a533-4675-8c32-6fd98e79b348] Completed 200 OK in 1ms (Views: 0.7ms)
+I, [2018-05-09T23:24:13.657562 #15119]  INFO -- : [d9fa00bb-5565-448d-b9ea-5c453fd0395c] Started GET "/assets/application-35729bfbaf9967f119234595ed222f7ab14859f304ab0acc5451afb387f637fa.css" for 127.0.0.1 at 2018-05-09 23:24:13 +0200
+I, [2018-05-09T23:24:13.781429 #15119]  INFO -- : [5e3297f7-c51e-48b3-9fb7-5b2458d7f56b] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-09 23:24:13 +0200
+I, [2018-05-09T23:24:17.094408 #15119]  INFO -- : [87c85ba8-748b-4f76-95f8-b786447d7651] Started GET "/" for 127.0.0.1 at 2018-05-09 23:24:17 +0200
+I, [2018-05-09T23:24:17.095062 #15119]  INFO -- : [87c85ba8-748b-4f76-95f8-b786447d7651] Processing by LandingpagesController#home as HTML
+I, [2018-05-09T23:24:17.095897 #15119]  INFO -- : [87c85ba8-748b-4f76-95f8-b786447d7651]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-09T23:24:17.096013 #15119]  INFO -- : [87c85ba8-748b-4f76-95f8-b786447d7651]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-09T23:24:17.096615 #15119]  INFO -- : [87c85ba8-748b-4f76-95f8-b786447d7651] Completed 200 OK in 1ms (Views: 0.9ms)
+I, [2018-05-09T23:24:17.294749 #15119]  INFO -- : [0bb1cffa-045a-4614-8aae-f7bd187ca26f] Started GET "/" for 127.0.0.1 at 2018-05-09 23:24:17 +0200
+I, [2018-05-09T23:24:17.295333 #15119]  INFO -- : [0bb1cffa-045a-4614-8aae-f7bd187ca26f] Processing by LandingpagesController#home as HTML
+I, [2018-05-09T23:24:17.296213 #15119]  INFO -- : [0bb1cffa-045a-4614-8aae-f7bd187ca26f]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-09T23:24:17.296326 #15119]  INFO -- : [0bb1cffa-045a-4614-8aae-f7bd187ca26f]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-09T23:24:17.296928 #15119]  INFO -- : [0bb1cffa-045a-4614-8aae-f7bd187ca26f] Completed 200 OK in 1ms (Views: 0.9ms)
+I, [2018-05-09T23:24:17.761512 #15119]  INFO -- : [dd7e25be-dfd2-47e3-99e4-90306a50104b] Started GET "/assets/application-35729bfbaf9967f119234595ed222f7ab14859f304ab0acc5451afb387f637fa.css" for 127.0.0.1 at 2018-05-09 23:24:17 +0200
+I, [2018-05-09T23:24:17.762703 #15119]  INFO -- : [d7ac41bd-c6a8-48a1-b5cc-6785b48c92ee] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-09 23:24:17 +0200
+I, [2018-05-09T23:44:36.915741 #16769]  INFO -- : [7a310607-70b2-458d-97f4-5acce683005a] Started GET "/" for 127.0.0.1 at 2018-05-09 23:44:36 +0200
+I, [2018-05-09T23:44:36.919047 #16769]  INFO -- : [7a310607-70b2-458d-97f4-5acce683005a] Processing by LandingpagesController#home as HTML
+I, [2018-05-09T23:44:36.929500 #16769]  INFO -- : [7a310607-70b2-458d-97f4-5acce683005a]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-09T23:44:36.929996 #16769]  INFO -- : [7a310607-70b2-458d-97f4-5acce683005a]   Rendered landingpages/home.html.erb within layouts/application (0.4ms)
+I, [2018-05-09T23:44:36.931271 #16769]  INFO -- : [7a310607-70b2-458d-97f4-5acce683005a] Completed 200 OK in 12ms (Views: 2.8ms)
+I, [2018-05-09T23:44:37.197160 #16769]  INFO -- : [45f2df62-8d92-4f89-9b83-5b4285e9f15d] Started GET "/" for 127.0.0.1 at 2018-05-09 23:44:37 +0200
+I, [2018-05-09T23:44:37.197747 #16769]  INFO -- : [45f2df62-8d92-4f89-9b83-5b4285e9f15d] Processing by LandingpagesController#home as HTML
+I, [2018-05-09T23:44:37.198513 #16769]  INFO -- : [45f2df62-8d92-4f89-9b83-5b4285e9f15d]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-09T23:44:37.198624 #16769]  INFO -- : [45f2df62-8d92-4f89-9b83-5b4285e9f15d]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-09T23:44:37.199153 #16769]  INFO -- : [45f2df62-8d92-4f89-9b83-5b4285e9f15d] Completed 200 OK in 1ms (Views: 0.8ms)
+I, [2018-05-09T23:44:37.632027 #16769]  INFO -- : [8a9bacad-51b4-4e8b-9f73-b755fc206df0] Started GET "/assets/application-ca27cd478680f5e61be2d449dad60803b52352a9d13c77504d8c9dfd49cabf66.css" for 127.0.0.1 at 2018-05-09 23:44:37 +0200
+I, [2018-05-09T23:44:37.752231 #16769]  INFO -- : [5c52adb1-3216-4d95-b5cb-d91214650ca0] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-09 23:44:37 +0200
+I, [2018-05-10T00:06:48.037007 #17843]  INFO -- : [019aa9c0-ce9f-4a8e-80f7-7ac57406dab0] Started GET "/" for 127.0.0.1 at 2018-05-10 00:06:48 +0200
+I, [2018-05-10T00:06:48.039179 #17843]  INFO -- : [019aa9c0-ce9f-4a8e-80f7-7ac57406dab0] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T00:06:48.047463 #17843]  INFO -- : [019aa9c0-ce9f-4a8e-80f7-7ac57406dab0]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T00:06:48.047910 #17843]  INFO -- : [019aa9c0-ce9f-4a8e-80f7-7ac57406dab0]   Rendered landingpages/home.html.erb within layouts/application (0.3ms)
+I, [2018-05-10T00:06:48.049789 #17843]  INFO -- : [019aa9c0-ce9f-4a8e-80f7-7ac57406dab0]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T00:06:48.050111 #17843]  INFO -- : [019aa9c0-ce9f-4a8e-80f7-7ac57406dab0] Completed 200 OK in 11ms (Views: 3.7ms)
+I, [2018-05-10T00:06:48.291810 #17843]  INFO -- : [488f8118-eb5a-40eb-bc26-2e6a33c6e4db] Started GET "/" for 127.0.0.1 at 2018-05-10 00:06:48 +0200
+I, [2018-05-10T00:06:48.292518 #17843]  INFO -- : [488f8118-eb5a-40eb-bc26-2e6a33c6e4db] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T00:06:48.293488 #17843]  INFO -- : [488f8118-eb5a-40eb-bc26-2e6a33c6e4db]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T00:06:48.293607 #17843]  INFO -- : [488f8118-eb5a-40eb-bc26-2e6a33c6e4db]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T00:06:48.294275 #17843]  INFO -- : [488f8118-eb5a-40eb-bc26-2e6a33c6e4db]   Rendered layouts/_header.html.erb (0.0ms)
+I, [2018-05-10T00:06:48.294450 #17843]  INFO -- : [488f8118-eb5a-40eb-bc26-2e6a33c6e4db] Completed 200 OK in 2ms (Views: 1.2ms)
+I, [2018-05-10T00:06:48.684351 #17843]  INFO -- : [956236a2-ee2f-4458-b7ea-977e554e2794] Started GET "/assets/application-a9d3fca51add69ec26c83c87da67b72f8f905f32c0a0c1340d0bf58de74e20c2.css" for 127.0.0.1 at 2018-05-10 00:06:48 +0200
+I, [2018-05-10T00:06:48.804499 #17843]  INFO -- : [b637c10e-4a2c-4940-85f1-641d20b582e6] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 00:06:48 +0200
+I, [2018-05-10T00:21:49.924719 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f] Started GET "/" for 127.0.0.1 at 2018-05-10 00:21:49 +0200
+I, [2018-05-10T00:21:49.926777 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T00:21:49.935542 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T00:21:49.936025 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f]   Rendered landingpages/home.html.erb within layouts/application (0.3ms)
+I, [2018-05-10T00:21:49.937843 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T00:21:49.938529 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T00:21:49.938760 #18561]  INFO -- : [4534f46f-bee0-4d68-9488-00b84229163f] Completed 200 OK in 12ms (Views: 4.3ms)
+I, [2018-05-10T00:21:50.137162 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579] Started GET "/" for 127.0.0.1 at 2018-05-10 00:21:50 +0200
+I, [2018-05-10T00:21:50.137717 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T00:21:50.138461 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T00:21:50.138556 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T00:21:50.139058 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579]   Rendered layouts/_header.html.erb (0.0ms)
+I, [2018-05-10T00:21:50.139181 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T00:21:50.139305 #18561]  INFO -- : [9aa93cb9-c0d3-45a2-94e5-d4fd7eedf579] Completed 200 OK in 2ms (Views: 1.0ms)
+I, [2018-05-10T00:21:50.508115 #18561]  INFO -- : [e2c421bc-59ac-4292-9b2f-21123810b7a4] Started GET "/assets/application-387c727773fc619da1402412c39cf7a2be36408979cabc09a048c63addca8ef8.css" for 127.0.0.1 at 2018-05-10 00:21:50 +0200
+I, [2018-05-10T00:21:50.629737 #18561]  INFO -- : [affd2c6f-7e84-477c-951c-30ad3fe9c4f5] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 00:21:50 +0200
+I, [2018-05-10T00:32:29.977348 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada] Started GET "/" for 127.0.0.1 at 2018-05-10 00:32:29 +0200
+I, [2018-05-10T00:32:29.979649 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T00:32:29.989396 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T00:32:29.989888 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada]   Rendered landingpages/home.html.erb within layouts/application (0.4ms)
+I, [2018-05-10T00:32:29.991644 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T00:32:29.992293 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T00:32:29.992492 #19108]  INFO -- : [90ce0c23-5328-45d2-b151-64647d49aada] Completed 200 OK in 13ms (Views: 4.2ms)
+I, [2018-05-10T00:32:30.221004 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0] Started GET "/" for 127.0.0.1 at 2018-05-10 00:32:30 +0200
+I, [2018-05-10T00:32:30.221621 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T00:32:30.222348 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T00:32:30.222446 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T00:32:30.222960 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0]   Rendered layouts/_header.html.erb (0.0ms)
+I, [2018-05-10T00:32:30.223094 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T00:32:30.223226 #19108]  INFO -- : [b119b26e-f64c-43e3-8016-5c407cccf9b0] Completed 200 OK in 2ms (Views: 1.0ms)
+I, [2018-05-10T00:32:30.602033 #19108]  INFO -- : [d8778406-3dca-499d-bd80-203aabf63f43] Started GET "/assets/application-1f4fd4979c341aa56c7cd106865a125c3dc481ae71f1afb1c3ef5fb0dffaf7f6.css" for 127.0.0.1 at 2018-05-10 00:32:30 +0200
+I, [2018-05-10T00:32:30.724153 #19108]  INFO -- : [eb5dd992-125d-4770-b6f2-1767004d8740] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 00:32:30 +0200
+I, [2018-05-10T01:11:30.487074 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390] Started GET "/" for 127.0.0.1 at 2018-05-10 01:11:30 +0200
+I, [2018-05-10T01:11:30.489355 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T01:11:30.497477 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T01:11:30.497994 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390]   Rendered landingpages/home.html.erb within layouts/application (0.4ms)
+I, [2018-05-10T01:11:30.500872 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390]   Rendered layouts/_header.html.erb (0.7ms)
+I, [2018-05-10T01:11:30.501808 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390]   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2018-05-10T01:11:30.502136 #22004]  INFO -- : [7ce015b0-8772-459c-b47b-843319f32390] Completed 200 OK in 13ms (Views: 5.6ms)
+I, [2018-05-10T01:11:30.707196 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2] Started GET "/" for 127.0.0.1 at 2018-05-10 01:11:30 +0200
+I, [2018-05-10T01:11:30.707775 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T01:11:30.708538 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T01:11:30.708671 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T01:11:30.709285 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T01:11:30.709417 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T01:11:30.709569 #22004]  INFO -- : [41cfe75b-2fe3-4a3c-bb79-99b789c49dc2] Completed 200 OK in 2ms (Views: 1.2ms)
+I, [2018-05-10T01:11:31.133431 #22004]  INFO -- : [aa1f80af-cf3d-4149-b045-07153872fe38] Started GET "/assets/application-7f0fb1014cf60fc768a4a4d9a1ea699886ed745173cc05d78ac1ded2bd0f4df9.css" for 127.0.0.1 at 2018-05-10 01:11:31 +0200
+I, [2018-05-10T01:11:31.233733 #22004]  INFO -- : [ad4ccd5f-4982-46e6-b259-1b8ee770b992] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 01:11:31 +0200
+I, [2018-05-10T01:11:31.320901 #22004]  INFO -- : [c6154a60-c07d-4aaa-a010-3150b6167b69] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 01:11:31 +0200
+I, [2018-05-10T01:11:31.322227 #22004]  INFO -- : [c177218c-9ca8-47f7-92e1-581259b6e851] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 01:11:31 +0200
+I, [2018-05-10T01:11:40.508071 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850] Started GET "/" for 127.0.0.1 at 2018-05-10 01:11:40 +0200
+I, [2018-05-10T01:11:40.509398 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T01:11:40.510309 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T01:11:40.510437 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T01:11:40.511119 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T01:11:40.511267 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T01:11:40.511427 #22004]  INFO -- : [a6bc8894-ef38-4850-aa1d-cf1539207850] Completed 200 OK in 2ms (Views: 1.3ms)
+I, [2018-05-10T01:11:40.702329 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26] Started GET "/" for 127.0.0.1 at 2018-05-10 01:11:40 +0200
+I, [2018-05-10T01:11:40.702825 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T01:11:40.703443 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T01:11:40.703554 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T01:11:40.704048 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T01:11:40.704177 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T01:11:40.704304 #22004]  INFO -- : [6c47d1e6-0e54-46dd-9b33-a2e4338aae26] Completed 200 OK in 1ms (Views: 1.0ms)
+I, [2018-05-10T01:11:41.082068 #22004]  INFO -- : [75375648-65ab-4985-8fc7-fc12ee2a1fcb] Started GET "/assets/application-7f0fb1014cf60fc768a4a4d9a1ea699886ed745173cc05d78ac1ded2bd0f4df9.css" for 127.0.0.1 at 2018-05-10 01:11:41 +0200
+I, [2018-05-10T01:11:41.083113 #22004]  INFO -- : [c0b5684b-e5e9-41a7-9c86-c7a02081bd80] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 01:11:41 +0200
+I, [2018-05-10T01:11:41.166341 #22004]  INFO -- : [c4788398-2bf9-4b7a-864c-41a77346cab9] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 01:11:41 +0200
+I, [2018-05-10T01:11:41.167182 #22004]  INFO -- : [32bdceb2-e9d8-49f0-9219-d5333607bc29] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 01:11:41 +0200
+I, [2018-05-10T01:51:26.371615 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7] Started GET "/" for 127.0.0.1 at 2018-05-10 01:51:26 +0200
+I, [2018-05-10T01:51:26.373657 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T01:51:26.382826 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T01:51:26.383381 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7]   Rendered landingpages/home.html.erb within layouts/application (0.4ms)
+I, [2018-05-10T01:51:26.385737 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7]   Rendered layouts/_header.html.erb (0.7ms)
+I, [2018-05-10T01:51:26.386500 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T01:51:26.386742 #24125]  INFO -- : [e4944229-53f7-4df5-9921-d3e2ab225ea7] Completed 200 OK in 13ms (Views: 5.2ms)
+I, [2018-05-10T01:51:26.582751 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c] Started GET "/" for 127.0.0.1 at 2018-05-10 01:51:26 +0200
+I, [2018-05-10T01:51:26.584358 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T01:51:26.585294 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T01:51:26.585405 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c]   Rendered landingpages/home.html.erb within layouts/application (0.0ms)
+I, [2018-05-10T01:51:26.586209 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T01:51:26.586353 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T01:51:26.586510 #24125]  INFO -- : [c8611515-b1cc-48f1-b5ec-374830507b2c] Completed 200 OK in 2ms (Views: 1.4ms)
+I, [2018-05-10T01:51:26.940964 #24125]  INFO -- : [71bef610-726f-448f-b6c3-8ee2cf712256] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 01:51:26 +0200
+I, [2018-05-10T01:51:27.041029 #24125]  INFO -- : [595406a3-3c4c-446d-ba81-2de4bfadc632] Started GET "/assets/application-ed2436e3fb8bf1e83472e247e1e7bf40cc72737dabbff79784596c16882d11bb.css" for 127.0.0.1 at 2018-05-10 01:51:27 +0200
+I, [2018-05-10T01:51:27.118697 #24125]  INFO -- : [b54eb5fc-bb6e-4d95-aa68-0b45856b1f80] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 01:51:27 +0200
+I, [2018-05-10T01:51:27.120411 #24125]  INFO -- : [72e8a24e-9f0d-486e-8ad4-827d44a7a74f] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 01:51:27 +0200
+I, [2018-05-10T02:35:44.284019 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698] Started GET "/" for 127.0.0.1 at 2018-05-10 02:35:44 +0200
+I, [2018-05-10T02:35:44.286096 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T02:35:44.296785 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T02:35:44.297664 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698]   Rendered landingpages/home.html.erb within layouts/application (0.8ms)
+I, [2018-05-10T02:35:44.299595 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698]   Rendered layouts/_header.html.erb (0.5ms)
+I, [2018-05-10T02:35:44.300280 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T02:35:44.300521 #26382]  INFO -- : [658b2f9a-b39a-4866-8719-1d5a4c5e9698] Completed 200 OK in 14ms (Views: 4.8ms)
+I, [2018-05-10T02:35:44.494768 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7] Started GET "/" for 127.0.0.1 at 2018-05-10 02:35:44 +0200
+I, [2018-05-10T02:35:44.495429 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T02:35:44.496429 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T02:35:44.496697 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7]   Rendered landingpages/home.html.erb within layouts/application (0.2ms)
+I, [2018-05-10T02:35:44.497503 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T02:35:44.497660 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T02:35:44.497843 #26382]  INFO -- : [bb7cbcd5-6c4e-4368-bb3f-6c083410bad7] Completed 200 OK in 2ms (Views: 1.6ms)
+I, [2018-05-10T02:35:44.891632 #26382]  INFO -- : [8f1242d3-3356-4307-a708-8aac4baf2028] Started GET "/assets/application-bfc2621baf6585b982cf9ce30153c98c4c4547ec128411f1adce0f1e3eb50155.css" for 127.0.0.1 at 2018-05-10 02:35:44 +0200
+I, [2018-05-10T02:35:45.021726 #26382]  INFO -- : [b9b71068-4469-4b2c-ac46-d3c5b014f2b4] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 02:35:45 +0200
+I, [2018-05-10T02:35:45.081283 #26382]  INFO -- : [c0ce2f5b-5e10-4e0d-911f-6d69282fbdf5] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 02:35:45 +0200
+I, [2018-05-10T02:35:45.081548 #26382]  INFO -- : [d178df50-ebeb-445b-bc48-561c6cbc81d7] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 02:35:45 +0200
+I, [2018-05-10T02:35:45.084328 #26382]  INFO -- : [5b275d39-105e-46d2-97b6-36b42a9c9b73] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 02:35:45 +0200
+I, [2018-05-10T02:58:31.282326 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19] Started GET "/" for 127.0.0.1 at 2018-05-10 02:58:31 +0200
+I, [2018-05-10T02:58:31.284419 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T02:58:31.293561 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T02:58:31.294456 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19]   Rendered landingpages/home.html.erb within layouts/application (0.8ms)
+I, [2018-05-10T02:58:31.296984 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19]   Rendered layouts/_header.html.erb (0.7ms)
+I, [2018-05-10T02:58:31.297923 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19]   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2018-05-10T02:58:31.298187 #27433]  INFO -- : [0f4b1256-e023-47f9-9c4a-5b8841594d19] Completed 200 OK in 14ms (Views: 5.8ms)
+I, [2018-05-10T02:58:31.517446 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a] Started GET "/" for 127.0.0.1 at 2018-05-10 02:58:31 +0200
+I, [2018-05-10T02:58:31.518704 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T02:58:31.519636 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T02:58:31.519852 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a]   Rendered landingpages/home.html.erb within layouts/application (0.1ms)
+I, [2018-05-10T02:58:31.520602 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T02:58:31.520763 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T02:58:31.520943 #27433]  INFO -- : [2a63325f-5d84-4dd5-8e5c-e0ffd6c8339a] Completed 200 OK in 2ms (Views: 1.5ms)
+I, [2018-05-10T02:58:31.900891 #27433]  INFO -- : [9ababb89-17b1-4dab-bfc9-eab21119ca20] Started GET "/assets/application-80b9431987ecba6c325100800442dc97d28d8987dab21275d531ba54855658e6.css" for 127.0.0.1 at 2018-05-10 02:58:31 +0200
+I, [2018-05-10T02:58:32.041043 #27433]  INFO -- : [870f5887-3c62-43e5-af33-bcaf778917b0] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 02:58:32 +0200
+I, [2018-05-10T02:58:32.107492 #27433]  INFO -- : [1f462149-096a-4081-82be-3c7c2690418e] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 02:58:32 +0200
+I, [2018-05-10T02:58:32.107795 #27433]  INFO -- : [421f3bf2-336c-494f-bb92-49e6c261fcfe] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 02:58:32 +0200
+I, [2018-05-10T02:58:32.109029 #27433]  INFO -- : [0d9b1943-56df-46cc-a601-90ae3d1466ac] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 02:58:32 +0200
+I, [2018-05-10T02:58:35.649099 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d] Started GET "/" for 127.0.0.1 at 2018-05-10 02:58:35 +0200
+I, [2018-05-10T02:58:35.650799 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T02:58:35.652384 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T02:58:35.652733 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d]   Rendered landingpages/home.html.erb within layouts/application (0.2ms)
+I, [2018-05-10T02:58:35.653688 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T02:58:35.653929 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d]   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2018-05-10T02:58:35.654154 #27433]  INFO -- : [426c8431-4414-49d3-b250-f3514c13de1d] Completed 200 OK in 3ms (Views: 2.1ms)
+I, [2018-05-10T02:58:35.862666 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce] Started GET "/" for 127.0.0.1 at 2018-05-10 02:58:35 +0200
+I, [2018-05-10T02:58:35.863149 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T02:58:35.863770 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T02:58:35.863955 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce]   Rendered landingpages/home.html.erb within layouts/application (0.1ms)
+I, [2018-05-10T02:58:35.864453 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T02:58:35.864597 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T02:58:35.864738 #27433]  INFO -- : [b35eda52-a95e-43b9-b39d-81ad8e7015ce] Completed 200 OK in 2ms (Views: 1.1ms)
+I, [2018-05-10T02:58:36.251835 #27433]  INFO -- : [093d4d65-cba4-421a-a8f5-a78e275ea074] Started GET "/assets/application-80b9431987ecba6c325100800442dc97d28d8987dab21275d531ba54855658e6.css" for 127.0.0.1 at 2018-05-10 02:58:36 +0200
+I, [2018-05-10T02:58:36.252849 #27433]  INFO -- : [6ed168d7-7e27-4121-aa6d-a491f13b7ecd] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 02:58:36 +0200
+I, [2018-05-10T02:58:36.335798 #27433]  INFO -- : [7f8846e6-dbc3-4c48-a0e7-09ee4868f49c] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 02:58:36 +0200
+I, [2018-05-10T02:58:36.336067 #27433]  INFO -- : [0831d047-26a9-4f1e-b11d-9df50def62d5] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 02:58:36 +0200
+I, [2018-05-10T02:58:36.337544 #27433]  INFO -- : [e7919a1a-07ce-42f2-ba34-e31ace4cab54] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 02:58:36 +0200
+I, [2018-05-10T03:49:38.050750 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5] Started GET "/" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T03:49:38.052830 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T03:49:38.061993 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T03:49:38.062953 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5]   Rendered landingpages/home.html.erb within layouts/application (0.8ms)
+I, [2018-05-10T03:49:38.065073 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5]   Rendered layouts/_header.html.erb (0.6ms)
+I, [2018-05-10T03:49:38.065927 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5]   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2018-05-10T03:49:38.066197 #30319]  INFO -- : [4e249848-c9a4-4e8a-a571-6949dbe775f5] Completed 200 OK in 13ms (Views: 5.4ms)
+I, [2018-05-10T03:49:38.257291 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635] Started GET "/" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T03:49:38.258154 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T03:49:38.259165 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T03:49:38.259535 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635]   Rendered landingpages/home.html.erb within layouts/application (0.3ms)
+I, [2018-05-10T03:49:38.260259 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T03:49:38.260418 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T03:49:38.260554 #30319]  INFO -- : [2a053b91-800f-49f9-80a4-af71e253a635] Completed 200 OK in 2ms (Views: 1.7ms)
+I, [2018-05-10T03:49:38.626806 #30319]  INFO -- : [e2693b1b-2a3e-41ee-8bb8-6384bd22314b] Started GET "/assets/application-082eebb07a3be2cdfbd9b9f95645dd5aaa50b4f24e29dce026e5856a744a6d66.css" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T03:49:38.743020 #30319]  INFO -- : [5f5d61d2-df42-462e-a245-34c0640baa53] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T03:49:38.827995 #30319]  INFO -- : [c3a0ffaf-9245-469e-83fb-f30d49b5acce] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T03:49:38.828265 #30319]  INFO -- : [0bd72608-5ba2-48aa-9d7d-fb9f5139df5d] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T03:49:38.829224 #30319]  INFO -- : [d873633e-f9d3-4746-a834-ec9696e3f095] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 03:49:38 +0200
+I, [2018-05-10T04:23:30.357163 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb] Started GET "/" for 127.0.0.1 at 2018-05-10 04:23:30 +0200
+I, [2018-05-10T04:23:30.359254 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T04:23:30.367584 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T04:23:30.368434 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb]   Rendered landingpages/home.html.erb within layouts/application (0.7ms)
+I, [2018-05-10T04:23:30.370404 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb]   Rendered layouts/_header.html.erb (0.6ms)
+I, [2018-05-10T04:23:30.371201 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb]   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2018-05-10T04:23:30.371427 #328]  INFO -- : [96cb796e-2ea7-4bc0-805b-a37f0ea3f6bb] Completed 200 OK in 12ms (Views: 4.9ms)
+I, [2018-05-10T04:23:30.557986 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9] Started GET "/" for 127.0.0.1 at 2018-05-10 04:23:30 +0200
+I, [2018-05-10T04:23:30.559029 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T04:23:30.560181 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T04:23:30.560388 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9]   Rendered landingpages/home.html.erb within layouts/application (0.1ms)
+I, [2018-05-10T04:23:30.561004 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T04:23:30.561142 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T04:23:30.561300 #328]  INFO -- : [1bf63f49-c7fc-4cfd-b2aa-6ccba0a863a9] Completed 200 OK in 2ms (Views: 1.3ms)
+I, [2018-05-10T04:23:30.915819 #328]  INFO -- : [2eafd2e9-cca6-44dc-950a-64e83cf3fc85] Started GET "/assets/application-70c37ef5deabb794fd2932ab91d896e172b7728f880a10b88ded37d717bf7888.css" for 127.0.0.1 at 2018-05-10 04:23:30 +0200
+I, [2018-05-10T04:23:31.028938 #328]  INFO -- : [80061244-6b03-47ae-bf33-478108b5a8d1] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 04:23:31 +0200
+I, [2018-05-10T04:23:31.092591 #328]  INFO -- : [7367e9f8-fc2b-47dd-b67b-647c54feacaf] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 04:23:31 +0200
+I, [2018-05-10T04:23:31.092847 #328]  INFO -- : [1aba1668-6405-4c27-8758-3349566782ec] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 04:23:31 +0200
+I, [2018-05-10T04:23:31.095982 #328]  INFO -- : [66619af1-b87e-493a-82d1-dbb723f24822] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 04:23:31 +0200
+I, [2018-05-10T05:07:08.496401 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367] Started GET "/" for 127.0.0.1 at 2018-05-10 05:07:08 +0200
+I, [2018-05-10T05:07:08.498506 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T05:07:08.506722 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T05:07:08.507546 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367]   Rendered landingpages/home.html.erb within layouts/application (0.7ms)
+I, [2018-05-10T05:07:08.509400 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367]   Rendered layouts/_header.html.erb (0.5ms)
+I, [2018-05-10T05:07:08.510188 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367]   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2018-05-10T05:07:08.510425 #3057]  INFO -- : [19270db2-cb7b-4607-b067-bc131add9367] Completed 200 OK in 12ms (Views: 4.7ms)
+I, [2018-05-10T05:07:08.743251 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268] Started GET "/" for 127.0.0.1 at 2018-05-10 05:07:08 +0200
+I, [2018-05-10T05:07:08.743809 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T05:07:08.744614 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T05:07:08.744838 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268]   Rendered landingpages/home.html.erb within layouts/application (0.1ms)
+I, [2018-05-10T05:07:08.745417 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268]   Rendered layouts/_header.html.erb (0.1ms)
+I, [2018-05-10T05:07:08.745563 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268]   Rendered layouts/_footer.html.erb (0.0ms)
+I, [2018-05-10T05:07:08.745744 #3057]  INFO -- : [d0a9951f-1957-4dca-a2d9-c9e0addec268] Completed 200 OK in 2ms (Views: 1.2ms)
+I, [2018-05-10T05:07:09.118664 #3057]  INFO -- : [d5d06ad8-0026-4325-8846-0a7d7ca4c27c] Started GET "/assets/application-a262479326c96520694bfc7e8800394f9c4fb82a7ebc1ea56a4f83bca7bfcb5f.css" for 127.0.0.1 at 2018-05-10 05:07:09 +0200
+I, [2018-05-10T05:07:09.227522 #3057]  INFO -- : [8a211149-1167-415f-abbe-c8e6df3f2dea] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 05:07:09 +0200
+I, [2018-05-10T05:07:09.290244 #3057]  INFO -- : [30cc6934-409e-4ef2-a542-cc9e0e1c8f87] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 05:07:09 +0200
+I, [2018-05-10T05:07:09.291208 #3057]  INFO -- : [b23039a1-6d5a-4b18-b570-cfd13ef58b39] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 05:07:09 +0200
+I, [2018-05-10T05:07:09.293050 #3057]  INFO -- : [6886df40-b9ae-4b41-b9e7-d058bb8e31cb] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 05:07:09 +0200
+I, [2018-05-10T05:53:13.649782 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33] Started GET "/" for 127.0.0.1 at 2018-05-10 05:53:13 +0200
+I, [2018-05-10T05:53:13.652312 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T05:53:13.661433 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T05:53:13.662759 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33]   Rendered landingpages/home.html.erb within layouts/application (1.2ms)
+I, [2018-05-10T05:53:13.665032 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33]   Rendered layouts/_header.html.erb (0.6ms)
+I, [2018-05-10T05:53:13.666612 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33]   Rendered layouts/_footer.html.erb (1.1ms)
+I, [2018-05-10T05:53:13.666958 #6316]  INFO -- : [8bac17ab-147c-4596-acbc-e4bee7537b33] Completed 200 OK in 15ms (Views: 6.6ms)
+I, [2018-05-10T05:53:13.856718 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4] Started GET "/" for 127.0.0.1 at 2018-05-10 05:53:13 +0200
+I, [2018-05-10T05:53:13.857229 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T05:53:13.857928 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T05:53:13.858235 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4]   Rendered landingpages/home.html.erb within layouts/application (0.2ms)
+I, [2018-05-10T05:53:13.858839 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T05:53:13.859131 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T05:53:13.859267 #6316]  INFO -- : [23a49cb5-fae7-4427-8f40-962becdb84f4] Completed 200 OK in 2ms (Views: 1.5ms)
+I, [2018-05-10T05:53:14.218438 #6316]  INFO -- : [8424ae50-3204-4607-8511-40d61e65aa11] Started GET "/assets/application-bbacc70dda877a7a956abac2725535c623b38b7aa96e193527b7fe12ff2b3636.css" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.318625 #6316]  INFO -- : [9d6e0197-f5c8-48f7-8b48-af22c9b2652a] Started GET "/assets/application-c365162bd5fcbe96eb6e0dccfa60c538e90070fac22f5b6eae312877a057a846.js" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.412688 #6316]  INFO -- : [39903671-3e6d-4ac9-8acd-2af81878a90c] Started GET "/assets/header_image_adapted-18f522211f92deff11bdb0818169a591ed68e9f09717f550a4bd5d7042b13023.jpg" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.412975 #6316]  INFO -- : [b90c71d8-93df-4c35-ad1a-817867581d0b] Started GET "/assets/thp_logo-5f2f06c9444205a88123ca1de74646970e5a1dfb03698d02db33e5e62a60d6cd.png" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.414936 #6316]  INFO -- : [1f93759e-a9b7-4e87-9c7d-3eae0cc72f8b] Started GET "/assets/lesson_adapted-d4482ff319423d2965b2bab671c0e6ebf64e4359b969af2256132a0dc1f15f57.png" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.417774 #6316]  INFO -- : [45713d03-2f13-4cf2-aa18-0715fd0bcc92] Started GET "/assets/best_adapted-99ab9b5842614b59093fb203a262b731f115185df04cd571ce16607c1b91fc03.png" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.418620 #6316]  INFO -- : [b5575ba4-57eb-49f9-9466-b1210bda212b] Started GET "/assets/free-301002bd5d78fec642c5f8ee4479d418b6b1b09ce0de8060b11838d8eeac8000.png" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.420763 #6316]  INFO -- : [9e290cf0-e5be-40f2-8cbf-4862de86fabd] Started GET "/assets/question-d26ccba7b3608b6c39569e49111047eaef7deff37b8fe64429bc135cae7473ff.png" for 127.0.0.1 at 2018-05-10 05:53:14 +0200
+I, [2018-05-10T05:53:14.622402 #6316]  INFO -- : [681557d6-d4c3-4a2f-9d1b-137d1bc5230b] Started GET "/assets/temoignage_1-ef57b4af02432f34fb6d75a2a221e2f1a8b83aafe7e1e00f2c7fd40b1b1f80e9.png" for 127.0.0.1 at 2018-05-10 05:53:14 +0200

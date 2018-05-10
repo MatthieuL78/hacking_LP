@@ -1,0 +1,51 @@
+/* A retirer par la suite : Que pour les tests */
+
+.header {
+	margin-bottom: 15px;
+}
+
+.header-top {
+	background-color: #333333;
+	width: 100%;
+	height: 25px;
+	margin-bottom: 15px;
+}
+
+.header-title {
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+.header-image {
+	filter:contrast(105%);
+}
+
+.header-text-over-image {
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	font-weight: bold;
+	color: white;
+}
+
+.header-title-sub {
+	text-align:  center;
+	background-color: #D86761;
+	font-weight: bold;
+	color: white;
+}
+
+.header-sub {
+	text-align: center;
+	background-color: #FF9D7F;
+	font-weight: bold;
+	color: white;
+}
+
+.header-text {
+	padding-top: 32px;
+}
+
+.my_td_header {
+	width: 500px;
+}
