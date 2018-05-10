@@ -15,3 +15,33 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$( document ).ready(function() 
+{
+	var slideIndex = 1;
+	showDivs(slideIndex)
+});
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {showDivs(slideIndex += n);}
+
+function showDivs(n) 
+{
+	var i;
+	var x = document.getElementsByClassName("my-slide");
+	var y = document.getElementsByClassName("my-slide-text");
+	
+	if (n > x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = x.length}
+	for (i = 0; i < x.length; i++) 
+	{
+		x[i].style.display = "none";
+		y[i].style.display = "none";
+	}
+	x[slideIndex-1].style.display = "block";
+	y[slideIndex-1].style.display = "block";
+	x[slideIndex-1].style.cssText = "border-radius: 25px 25px 25px 25px; -webkit-box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56); -moz-box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56); box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);"
+}
+

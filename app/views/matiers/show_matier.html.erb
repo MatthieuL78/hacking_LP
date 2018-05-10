@@ -1,0 +1,67 @@
+<div class="container-full">
+	<div class="row">
+		<div class= "col-md-12 body-top"><h3 class="title-font">2 formations de qualitées en accélérées et déjà plus de 300 étudiants !</h3></div>
+		<div class="col-md-6 body-program-box">
+			<h4>Explorer l'apprentissage en Web</h4>
+			<!-- Mettre un onglet déroulant -->
+			<div class="program-box">
+				<%= form_tag('/matier/:id') do %> 
+					<%= select("post", "matiers_name", Matier.all.collect { |m| [ m.name, m.id ] }, { prompt: 'Ce que vous allez apprendre'}) %>
+					<%= submit_tag 'Les détails' %>
+				<% end %>
+			</div>
+		</div>
+		<div class="col-md-6 body-program-box">
+			<h4>Explorer l'apprentissage en Sales</h4>
+			<div class="program-box">
+				<!-- <select name="post[person_id]">
+				  <option value="apprendre" selected="selected">Ce que vous allez apprendre</option>
+				  <option value="convaincre">Convaincre</option>
+				  <option value="strategie_commerciale">Stratégie commerciale</option>
+				  <option value="business_development">Business development</option>
+				  <option value="business_development">Stage en entreprise</option>
+				  <option value="autre">Et bien d'autre</option>
+				</select> -->
+			</div>
+		</div>
+		<div class="col-md-12 body-table">
+			<div class="table-responsive">
+				<table>
+					<tbody>
+						<tr>
+							<td class="align-middle my_td_body">
+								<%= image_tag 'lesson_adapted.png', size: 80, :class => 'body-image', alt: 'lesson' %>
+								
+								<div class="body-box body-colonne-1">
+									<h3 class="title-catch">Réapprendre à apprendre</h3>
+									<p class="p-font p-length">Chaque jour, 2 livres et un projet d'au moins 6 heures en guise de ressource pour l'apprentissage. Cette méthode de travail appliquée pendant deux mois permet d'acquérir de nouvelles compétences rapidements et ceci deviendra une habitude.</p>
+								</div>
+							</td>
+							<td class="align-middle my_td_body">
+								<%= image_tag 'best_adapted.png', size: 90, :class => 'body-image', alt: 'adaptation' %>
+								<div class="body-box">
+									<h3 class="title-catch">Meilleur niveau</h3>
+									<p class="p-font p-length">Les projets en équipe permettent d'accomplir des tâches difficiles. La formation en peer-learning permettra de surmonter les difficultées, tout en étant plus ludique grâce aux projets.</p>
+								</div>
+							</td>
+							<td class="align-middle my_td_body">
+								<%= image_tag 'free.png', size: 80, :class => 'body-image', alt: 'gratuit' %>
+								
+								<div class="body-box body-colonne-3">
+									<h3 class="title-catch">Formation gratuite</h3>
+									<p class="p-font p-length">Les groupes autonomes répartis partout nous permet de proposer une formation gratuite, ouverte à tous, sans restriction géographique. Proposer une éducation professionnalisante où le seul pré-requis est la motivation est très important pour nous.</p>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>	
+		</div>
+		<div class="col-md-3"></div>
+		<div class="col-md-6" id="matier-content">
+			<h1 class="p-title"><%= @matier.name %>
+			<p class="p-font p-length"><%= @matier.content %></p>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</div>

@@ -12,14 +12,17 @@
 
 .body-program-box {
 	text-align: center;
-	background-color: #F5F7CA;
-	padding-top: 5px;
-	pading-bottom: 5px;
+	background-color: #FFF9E5;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.program-box {
+	margin-top: 15px;
 }
 
 .body-table {
 	padding-top: 25px;
-	pading-bottom: 25px;
 }
 
 .body-box {
@@ -30,33 +33,56 @@
 	border-right: 1px solid black;
 }
 
-.body-colonne-2 {
-	border-right: 1px solid black;
+.body-colonne-3 {
+	border-left: 1px solid black;
 }
 
 .body-temoin {
-	background-color: #F5F7CA;
+	background-color: #FFF9E5;
 }
 
 .body-temoin-change-left-box {
-	margin-left: 80px;
-	border-radius: 10px 0px 0px 10px;
+	padding-top: 100px;
+	margin-left: 80px;	
+	border-radius: 25px 0px 0px 25px;
 }
 
 .body-temoin-picture-box {
 	text-align: center;
+	padding-top : 15px;
+	padding-bottom: 15px;
+
+}
+
+.temoin-image {
+	border-radius: 25px 25px 25px 25px;
+	-webkit-box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);
+	-moz-box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);
+	box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);
 }
 
 .body-temoin-text-box {
 	padding-top: 60px;
+	
 }
 
 .body-temoin-change-right-box {
-	border-top-right-radius: 2px;
-	border-radius: 0 10px 10px 0;
+	padding-top: 100px;
+	border-radius: 0 25px 25px 0;
+
+}
+
+.slide-button-left {
+	margin-left: 65px;
+}
+
+.p-quote {
+	text-indent:50px;
+	font-style: italic;
 }
 
 .p-font {
+	font-family: "Helvetica", serif;
 	font-size: 18px;
 	line-height: 1.3;
 }

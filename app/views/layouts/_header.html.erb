@@ -2,17 +2,18 @@
 	<div class="container-full">
 		<div class="row">
 			<div class= "col-md-12 header-top"></div>
-			<div class="col-md-12 header-title"><h1>THE HACKING PROJECT</h1><!-- <p> Formation accélérée et intensive en informatique accessible à tous </p> --></div>
-			<div class="col-md-9 header-img">
-				<%= image_tag 'header_image_adapted.jpg', :class => "img-fluid rounded header-image" %>
-				<div class="header-text-over-image"><h1>Offrer ce que vous valez</h1></div>
+			<div class="col-md-12 header-title"><h1 class="title-font">THE HACKING PROJECT</h1></div>
+			<div class="col-md-9 header-image-container">
+				<%= image_tag 'header_image_adapted.jpg', :class => "img-fluid header-image", alt: 'formation' %>
+				<div class="header-text-over-image"><h1 class="title-font">"Offrir ce que vous valez"</h1></div>
+				 <div class="text-effect"><h2 class="title-font">Une formation gratuite et à la portée de tous</h2></div>
 			</div>
 			<div class="col-md-3">
-				<div class="table-responsive">
+				<div class="table-responsive table-header">
 				<table>
 					<tbody>
 						<tr>
-							<td class="align-middle my_td_header"><div class="header-title-sub"><h3>Faite le pas</h3></div></td>
+							<td class="align-middle my_td_header"><div class="header-title-sub"><h3>Faites le pas</h3></div></td>
 						</tr>
 						<tr>
 							<td class="my_td_header"><div class="header-sub">
@@ -27,10 +28,10 @@
 			</div>
 			<div class="col-md-1"></div>
 			<div class="col-md-8 header-text">
-				<h2>Découvrez le monde du développement web et booster votre carrière</h2>
+				<h3 class="title-font">Découvrez le monde du développement web et booster votre carrière</h3>
 				<p class="p-font">The Hacking Project est une jeune pousse qui souhaite apporter à tous les compétences necessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, pas de locaux.</p>
 			</div>
-			<div class="col-md-3 header-logo"><%= image_tag 'thp_logo.png', size: '150', :class => "rounded mx-auto d-block" %></div>
+			<div class="col-md-3 header-logo"><%= image_tag 'thp_logo.png', size: '150', :class => "rounded mx-auto d-block", alt: 'thp' %></div>
 		</div>
 	</div>
 </header>

@@ -19,14 +19,19 @@
 }
 
 .footer-bot-box {
-	background-color: black;
+	background-color: #333333;
 	color: white;
 	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
-.p-length {
-	margin-right: 35px;
-	margin-left: 35px;
+.footer-2 {
+	padding-top: 50px;
+}
+
+.footer-3 {
+	padding-top: 60px;
 }
 
 .question-image {

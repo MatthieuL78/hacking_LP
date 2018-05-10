@@ -1,13 +1,27 @@
 <div class="container-full">
 	<div class="row">
-		<div class= "col-md-12 body-top"><h3>2 formations de qualitées en accélérées et déjà plus de 300 étudiants !</h3></div>
+		<div class= "col-md-12 body-top"><h3 class="title-font">2 formations de qualitées en accélérées et déjà plus de 300 étudiants !</h3></div>
 		<div class="col-md-6 body-program-box">
-			<h4>Explorer l'apprentissage en Ruby</h4>
+			<h4>Explorer l'apprentissage en Web</h4>
 			<!-- Mettre un onglet déroulant -->
+			<div class="program-box">
+				<%= form_tag('/matier/') do %> 
+					<%= submit_tag 'Les détails' %>
+				<% end %>
+			</div>
 		</div>
 		<div class="col-md-6 body-program-box">
 			<h4>Explorer l'apprentissage en Sales</h4>
-			<!-- Mettre un onglet déroulant -->
+			<div class="program-box">
+				<!-- <select name="post[person_id]">
+				  <option value="apprendre" selected="selected">Ce que vous allez apprendre</option>
+				  <option value="convaincre">Convaincre</option>
+				  <option value="strategie_commerciale">Stratégie commerciale</option>
+				  <option value="business_development">Business development</option>
+				  <option value="business_development">Stage en entreprise</option>
+				  <option value="autre">Et bien d'autre</option>
+				</select> -->
+			</div>
 		</div>
 		<div class="col-md-12 body-table">
 			<div class="table-responsive">
@@ -15,23 +29,25 @@
 					<tbody>
 						<tr>
 							<td class="align-middle my_td_body">
-								<%= image_tag 'lesson_adapted.png', size: 80, :class => 'body-image' %>
-								<h3 class="title-catch">Réapprendre à apprendre</h3>
+								<%= image_tag 'lesson_adapted.png', size: 80, :class => 'body-image', alt: 'lesson' %>
+								
 								<div class="body-box body-colonne-1">
+									<h3 class="title-catch">Réapprendre à apprendre</h3>
 									<p class="p-font p-length">Chaque jour, 2 livres et un projet d'au moins 6 heures en guise de ressource pour l'apprentissage. Cette méthode de travail appliquée pendant deux mois permet d'acquérir de nouvelles compétences rapidements et ceci deviendra une habitude.</p>
 								</div>
 							</td>
 							<td class="align-middle my_td_body">
-								<%= image_tag 'best_adapted.png', size: 90, :class => 'body-image' %>
-								<h3 class="title-catch">Meilleur niveau</h3>
-								<div class="body-box body-colonne-2">
+								<%= image_tag 'best_adapted.png', size: 90, :class => 'body-image', alt: 'adaptation' %>
+								<div class="body-box">
+									<h3 class="title-catch">Meilleur niveau</h3>
 									<p class="p-font p-length">Les projets en équipe permettent d'accomplir des tâches difficiles. La formation en peer-learning permettra de surmonter les difficultées, tout en étant plus ludique grâce aux projets.</p>
 								</div>
 							</td>
 							<td class="align-middle my_td_body">
-								<%= image_tag 'free.png', size: 80, :class => 'body-image' %>
-								<h3 class="title-catch">Formation gratuite</h3>
-								<div class="body-box">
+								<%= image_tag 'free.png', size: 80, :class => 'body-image', alt: 'gratuit' %>
+								
+								<div class="body-box body-colonne-3">
+									<h3 class="title-catch">Formation gratuite</h3>
 									<p class="p-font p-length">Les groupes autonomes répartis partout nous permet de proposer une formation gratuite, ouverte à tous, sans restriction géographique. Proposer une éducation professionnalisante où le seul pré-requis est la motivation est très important pour nous.</p>
 								</div>
 							</td>
@@ -40,14 +56,47 @@
 				</table>
 			</div>	
 		</div>
-		<div class="col-md-1 body-temoin body-temoin-change-left-box"><!-- Ajouter fleche pour changer de temoi --></div>
-		<div class="col-md-3 body-temoin body-temoin-picture-box"><%= image_tag 'temoignage_1.png', :class => "rounded" %></div>
+		<div class="col-md-1 body-temoin body-temoin-change-left-box">
+			<button class="slide-button-left btn" onclick="plusDivs(-1)">&#10094;</button>
+		</div>
+		<div class="col-md-3 body-temoin body-temoin-picture-box">
+			<%= image_tag 'temoignage_1.png', :class => "temoin-image, my-slide", alt: 'corsaire' %>
+			<%= image_tag 'temoignage_2.jpg', :class => "temoin-image, my-slide", alt: 'corsaire' %>
+			<%= image_tag 'temoignage_4.png', :class => "temoin-image, my-slide", alt: 'corsaire' %>
+			<%= image_tag 'temoignage_3.png', :class => "temoin-image, my-slide", alt: 'corsaire' %>
+			<%= image_tag 'temoignage_5.png', :class => "temoin-image, my-slide", alt: 'corsaire' %>
+			<%= image_tag 'temoignage_6.png', :class => "temoin-image, my-slide", alt: 'corsaire' %>
+		</div>
 		<div class="col-md-6 body-temoin body-temoin-text-box">
-			<blockquote class="blockquote ">
-			 	<p class="mb-0 p-font">"La formation revêt énormément d'aspects qui m'ont enthousiasmé : Le peer-learning, le programme intense, Ruby et Ruby on Rails qui sont simplement passionnants, le programme couvre un large panel de langages et techniques."</p>
-			 	<footer class="blockquote-footer">Corsaire de la formation <cite title="Source Title">Julien Laville</cite></footer>
+			<blockquote class="blockquote">
+				<div class="my-slide-text">
+				 	<p class="mb-0 p-font p-quote">"La formation revêt énormément d'aspects qui m'ont enthousiasmé : Le peer-learning, le programme intense, Ruby et Ruby on Rails qui sont simplement passionnants, le programme couvre un large panel de langages et techniques."</p>
+				 	<footer class="blockquote-footer">Corsaire de THP : <cite title="Source Title">Julien Laville</cite></footer>
+				</div>
+				<div class="my-slide-text">
+				 	<p class="mb-0 p-font p-quote">"Au final, au bout de 2 mois et demi, tu sors ce que tu veux comme tu veux. Tu apprends à travailler en groupe, en poussant toujours plus fort dans ta compétence, et en laissant les autres, en qui tu as entièrement confiance, faire d’autres taches bien mieux que toi."</p>
+				 	<footer class="blockquote-footer">Corsaire de THP : <cite title="Source Title">Angelino Capretti</cite></footer>
+			 	</div>
+				<div class="my-slide-text">
+				 	<p class="mb-0 p-font p-quote">"On rencontre beaucoup de personne on apprend beaucoup, énormement d’ateliers sont proposés, beaucoup d’informations partagées, très bonne ambiance"</p>
+				 	<footer class="blockquote-footer">Corsaire de THP : <cite title="Source Title">Diane Derycke</cite></footer>
+			 	</div>
+				<div class="my-slide-text">
+				 	<p class="mb-0 p-font p-quote">"Je suis chef de projet Chatbots et THP m'a permis d'avoir ce poste qui demande d'avoir des notions techniques. Les recruteurs m'ont même dit qu'ils m'auraient jamais proposé ce type de poste si je n'avais pas fait ce type de formation."</p>
+				 	<footer class="blockquote-footer">Corsaire de THP : <cite title="Source Title">Kaliane Net</cite></footer>
+			 	</div>
+				<div class="my-slide-text">
+				 	<p class="mb-0 p-font p-quote">"Au début de la formation, je ne connaissais rien au code, je pensais même que c'était un domaine professionnellement réservé aux ingénieurs. Très vite, j'ai rencontré des gens qui m'ont fait prendre conscience du contraire. En effet, il semble que le web-développement soit un domaine dans lequel les auto-didactes ont leur place !"</p>
+				 	<footer class="blockquote-footer">Corsaire de THP : <cite title="Source Title">Tarek Dinkespiler</cite></footer>
+			 	</div>
+				<div class="my-slide-text">
+				 	<p class="mb-0 p-font p-quote">"Je suis restée jusqu'au bout car c'était génial, autant d'un point de vue technique que d'un point de vue humain. J'ai rencontré de belles personnalités que je n'aurais pas croisées autrement. C'est une véritable aventure humaine."</p>
+				 	<footer class="blockquote-footer">Corsaire de THP : <cite title="Source Title">Claire Maffei</cite></footer>
+				 </div>
 			</blockquote>
 		</div>
-		<div class="col-md-1 body-temoin body-temoin-change-right-box"><!-- Ajouter fleche pour changer de temoi --></div>
+		<div class="col-md-1 body-temoin body-temoin-change-right-box">
+			<button class="slide-button-right btn" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
 	</div>
 </div>

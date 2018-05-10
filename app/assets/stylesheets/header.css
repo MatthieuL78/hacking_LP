@@ -1,5 +1,9 @@
 /* A retirer par la suite : Que pour les tests */
 
+/*.col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1{
+	border: 2px solid black;
+}*/
+
 .header {
 	margin-bottom: 15px;
 }
@@ -8,28 +12,59 @@
 	background-color: #333333;
 	width: 100%;
 	height: 25px;
-	margin-bottom: 15px;
 }
 
 .header-title {
+	margin-top: 15px;
 	margin-left: 25px;
 	margin-bottom: 10px;
 }
 
+.header-button-social {
+	margin-top: 8px;
+	margin-left: 250px;
+}
+
 .header-image {
+	transition: .8s ease;
 	filter:contrast(105%);
+	border-radius: 0px 25px 25px 0px;
+	-webkit-box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);
+	-moz-box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);
+	box-shadow: 0px 0px 48px -10px rgba(0,0,0,0.56);
+}
+
+.text-effect {
+	transition: .8s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.header-image-container:hover .header-image, .header-text-over-image {
+	transition: .8s ease;
+	opacity: 0.3;
+}
+
+.header-image-container:hover .text-effect {
+	opacity: 1;
 }
 
 .header-text-over-image {
 	position: absolute;
-	top: 60%;
-	left: 5%;
-	font-weight: bold;
+	top: 55%;
+	left: 3%;
+	font-style: italic;
 	color: white;
 }
 
 .header-title-sub {
 	text-align:  center;
+	border-radius: 25px 25px 25px 25px;
 	background-color: #D86761;
 	font-weight: bold;
 	color: white;
@@ -37,6 +72,7 @@
 
 .header-sub {
 	text-align: center;
+	border-radius: 25px 25px 25px 25px;
 	background-color: #FF9D7F;
 	font-weight: bold;
 	color: white;
@@ -48,4 +84,9 @@
 
 .my_td_header {
 	width: 500px;
+}
+
+.title-font {
+	font-family: "Courier", serif;
+	font-weight: bold;
 }
