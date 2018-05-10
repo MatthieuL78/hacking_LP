@@ -3,24 +3,28 @@
 		<div class= "col-md-12 body-top"><h3 class="title-font">2 formations de qualitées en accélérées et déjà plus de 300 étudiants !</h3></div>
 		<div class="col-md-6 body-program-box">
 			<h4>Explorer l'apprentissage en Web</h4>
-			<!-- Mettre un onglet déroulant -->
 			<div class="program-box">
-				<%= form_tag('/matier/') do %> 
-					<%= submit_tag 'Les détails' %>
-				<% end %>
+				<select name="post[person_id]">
+				  <option value="apprendre" selected="selected">Ce que vous allez apprendre</option>
+				  <option value="convaincre">Javascript</option>
+				  <option value="strategie_commerciale">CSS</option>
+				  <option value="business_development">Ruby</option>
+				  <option value="business_development">Ruby on rails</option>
+				  <option value="autre">Et bien d'autre</option>
+				</select>
 			</div>
 		</div>
 		<div class="col-md-6 body-program-box">
 			<h4>Explorer l'apprentissage en Sales</h4>
 			<div class="program-box">
-				<!-- <select name="post[person_id]">
+				<select name="post[person_id]">
 				  <option value="apprendre" selected="selected">Ce que vous allez apprendre</option>
 				  <option value="convaincre">Convaincre</option>
 				  <option value="strategie_commerciale">Stratégie commerciale</option>
 				  <option value="business_development">Business development</option>
 				  <option value="business_development">Stage en entreprise</option>
 				  <option value="autre">Et bien d'autre</option>
-				</select> -->
+				</select>
 			</div>
 		</div>
 		<div class="col-md-12 body-table">

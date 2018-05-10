@@ -2115,3 +2115,166 @@ I, [2018-05-10T23:27:20.249651 #5693]  INFO -- : [34029c59-55ee-47d2-a9d1-1886e8
 I, [2018-05-10T23:27:20.251942 #5693]  INFO -- : [34029c59-55ee-47d2-a9d1-1886e82c877d]   Rendered layouts/_header.html.erb (0.6ms)
 I, [2018-05-10T23:27:20.253073 #5693]  INFO -- : [34029c59-55ee-47d2-a9d1-1886e82c877d]   Rendered layouts/_footer.html.erb (0.6ms)
 I, [2018-05-10T23:27:20.253337 #5693]  INFO -- : [34029c59-55ee-47d2-a9d1-1886e82c877d] Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+I, [2018-05-10T23:42:40.211436 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022] Started GET "/" for 127.0.0.1 at 2018-05-10 23:42:40 +0200
+I, [2018-05-10T23:42:40.213513 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:42:40.220951 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:42:40.223156 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022]   Rendered landingpages/home.html.erb within layouts/application (2.1ms)
+I, [2018-05-10T23:42:40.225559 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022]   Rendered layouts/_header.html.erb (0.8ms)
+I, [2018-05-10T23:42:40.226612 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022]   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2018-05-10T23:42:40.226831 #6391]  INFO -- : [4edf3d83-a95c-4156-8556-54e02b605022] Completed 200 OK in 13ms (Views: 6.8ms)
+I, [2018-05-10T23:42:40.312695 #6391]  INFO -- : [be32b502-e895-41f7-9a7f-c53d303a92c9] Started GET "/assets/temoignage_2-4173e876069d87359ad7c1b3a0d3f25d07dafbfc8cecb38f5b60206d21058c3a.jpg" for 127.0.0.1 at 2018-05-10 23:42:40 +0200
+I, [2018-05-10T23:42:40.503183 #6391]  INFO -- : [687126d6-823c-43ac-a2ec-982e41de86ae] Started GET "/assets/temoignage_5-2f828371cbc47bebcd86a9059b5e6b5ba5220c1adad0c1c83893cbad09729fb0.png" for 127.0.0.1 at 2018-05-10 23:42:40 +0200
+I, [2018-05-10T23:42:40.504070 #6391]  INFO -- : [4c53351b-1175-4d47-a73d-a8fb95589f7a] Started GET "/assets/temoignage_3-5cc1b44f236b14a5417871109e7cd9c015ce02c4aabe7c760e23c0bf1b3a0a15.png" for 127.0.0.1 at 2018-05-10 23:42:40 +0200
+I, [2018-05-10T23:42:40.505149 #6391]  INFO -- : [6f514e72-26cf-42be-bf57-74568b5325a3] Started GET "/assets/temoignage_6-6217d4a9d97963a85c91b10e28d3e39fbb2df7f42eb7418a5a5a84b14ea6b8ee.png" for 127.0.0.1 at 2018-05-10 23:42:40 +0200
+I, [2018-05-10T23:42:40.507958 #6391]  INFO -- : [1c33e1e8-3b9d-4cad-ab4f-6f278afc40c9] Started GET "/assets/temoignage_4-0ceb8b2ba43a2a32c0ba2261970cd0e7ac4f7ab3a9355c2f2214f3d4b91db7ae.png" for 127.0.0.1 at 2018-05-10 23:42:40 +0200
+I, [2018-05-10T23:42:42.091073 #6391]  INFO -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace] Started POST "/matier/" for 127.0.0.1 at 2018-05-10 23:42:42 +0200
+I, [2018-05-10T23:42:42.091811 #6391]  INFO -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace] Processing by LandingpagesController#get_matier as HTML
+I, [2018-05-10T23:42:42.091869 #6391]  INFO -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0sI6pGB6CQ9aUy+/eJ7e1JaRZ55CZSRc5TULO7g4et7wD+C4Zl5zMeM1QWcFt9T2dU04+Ycwc7wGyPihtCdjCA==", "commit"=>"Les détails"}
+I, [2018-05-10T23:42:42.093278 #6391]  INFO -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace] Completed 500 Internal Server Error in 1ms
+F, [2018-05-10T23:42:42.093710 #6391] FATAL -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace]   
+F, [2018-05-10T23:42:42.093763 #6391] FATAL -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace] NoMethodError (undefined method `[]' for nil:NilClass):
+F, [2018-05-10T23:42:42.093791 #6391] FATAL -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace]   
+F, [2018-05-10T23:42:42.093815 #6391] FATAL -- : [98729832-f7e1-4b6c-976a-1fc781ab9ace] app/controllers/landingpages_controller.rb:7:in `get_matier'
+I, [2018-05-10T23:43:18.595109 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7] Started GET "/" for 127.0.0.1 at 2018-05-10 23:43:18 +0200
+I, [2018-05-10T23:43:18.595806 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:43:18.596973 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:43:18.598623 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7]   Rendered landingpages/home.html.erb within layouts/application (1.5ms)
+I, [2018-05-10T23:43:18.599357 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T23:43:18.599687 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T23:43:18.599879 #6391]  INFO -- : [ddcb7979-d1eb-4a5e-920a-440b61e436a7] Completed 200 OK in 4ms (Views: 3.4ms)
+I, [2018-05-10T23:43:19.928943 #6391]  INFO -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2] Started POST "/matier/" for 127.0.0.1 at 2018-05-10 23:43:19 +0200
+I, [2018-05-10T23:43:19.929677 #6391]  INFO -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2] Processing by LandingpagesController#get_matier as HTML
+I, [2018-05-10T23:43:19.929757 #6391]  INFO -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"o376L3CpRKGnLjLbN+xKqD+mFv9D7BlxRhH5vOsaAneBsyAzdo0+nx5IXANKxUCK3HpJmIa5TpGl7Aom5wUboQ==", "commit"=>"Les détails"}
+I, [2018-05-10T23:43:19.931162 #6391]  INFO -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2] Completed 500 Internal Server Error in 1ms
+F, [2018-05-10T23:43:19.931543 #6391] FATAL -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2]   
+F, [2018-05-10T23:43:19.931607 #6391] FATAL -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2] NoMethodError (undefined method `[]' for nil:NilClass):
+F, [2018-05-10T23:43:19.931638 #6391] FATAL -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2]   
+F, [2018-05-10T23:43:19.931661 #6391] FATAL -- : [48b802b4-2cb5-4cbb-b4fd-622bc1d426b2] app/controllers/landingpages_controller.rb:7:in `get_matier'
+I, [2018-05-10T23:43:28.844701 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad] Started GET "/" for 127.0.0.1 at 2018-05-10 23:43:28 +0200
+I, [2018-05-10T23:43:28.845220 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:43:28.845931 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:43:28.846637 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad]   Rendered landingpages/home.html.erb within layouts/application (0.6ms)
+I, [2018-05-10T23:43:28.847231 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T23:43:28.847542 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T23:43:28.847688 #6391]  INFO -- : [64c48a32-0cc7-4f60-aa2d-3d68da86daad] Completed 200 OK in 2ms (Views: 1.9ms)
+I, [2018-05-10T23:43:30.384316 #6391]  INFO -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0] Started POST "/matier/" for 127.0.0.1 at 2018-05-10 23:43:30 +0200
+I, [2018-05-10T23:43:30.384848 #6391]  INFO -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0] Processing by LandingpagesController#get_matier as HTML
+I, [2018-05-10T23:43:30.384894 #6391]  INFO -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"OsLM0o9PiAG21av70SCelitX1e+VGKqsteFxG6nv8EEYDxbOiWvyPw+zxSOsCZS0yIuKiFBN/UxWHIKBpfDplw==", "commit"=>"Les détails"}
+I, [2018-05-10T23:43:30.386061 #6391]  INFO -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0] Completed 500 Internal Server Error in 1ms
+F, [2018-05-10T23:43:30.386446 #6391] FATAL -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0]   
+F, [2018-05-10T23:43:30.386492 #6391] FATAL -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0] NoMethodError (undefined method `[]' for nil:NilClass):
+F, [2018-05-10T23:43:30.386515 #6391] FATAL -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0]   
+F, [2018-05-10T23:43:30.386541 #6391] FATAL -- : [ca39e71e-2fa9-48c8-a7f5-047219c0d1a0] app/controllers/landingpages_controller.rb:7:in `get_matier'
+I, [2018-05-10T23:43:39.608069 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49] Started GET "/" for 127.0.0.1 at 2018-05-10 23:43:39 +0200
+I, [2018-05-10T23:43:39.610418 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:43:39.619810 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:43:39.622037 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49]   Rendered landingpages/home.html.erb within layouts/application (2.1ms)
+I, [2018-05-10T23:43:39.623924 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49]   Rendered layouts/_header.html.erb (0.6ms)
+I, [2018-05-10T23:43:39.624993 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49]   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2018-05-10T23:43:39.625211 #6470]  INFO -- : [0a4a0072-f825-43d3-a0a2-404da949eb49] Completed 200 OK in 15ms (Views: 6.5ms)
+I, [2018-05-10T23:43:40.839689 #6470]  INFO -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332] Started POST "/matier/" for 127.0.0.1 at 2018-05-10 23:43:40 +0200
+I, [2018-05-10T23:43:40.841776 #6470]  INFO -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332] Processing by LandingpagesController#get_matier as HTML
+I, [2018-05-10T23:43:40.841944 #6470]  INFO -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0fhYGafnXUqkR1PrQSbQPyqFwhv5BgFvp3bYs4R8k6nzNYIFocMndB0hPTM8D9odyVmdfDxTVo9EiyspiGOKfw==", "commit"=>"Les détails"}
+I, [2018-05-10T23:43:40.846970 #6470]  INFO -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332] Completed 500 Internal Server Error in 5ms
+F, [2018-05-10T23:43:40.848409 #6470] FATAL -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332]   
+F, [2018-05-10T23:43:40.848628 #6470] FATAL -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332] NoMethodError (undefined method `[]' for nil:NilClass):
+F, [2018-05-10T23:43:40.848720 #6470] FATAL -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332]   
+F, [2018-05-10T23:43:40.848805 #6470] FATAL -- : [a57d8c9e-50c6-4838-a2f2-b5f48faa6332] app/controllers/landingpages_controller.rb:7:in `get_matier'
+I, [2018-05-10T23:44:19.316963 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3] Started GET "/" for 127.0.0.1 at 2018-05-10 23:44:19 +0200
+I, [2018-05-10T23:44:19.317479 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:44:19.318253 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:44:19.319194 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3]   Rendered landingpages/home.html.erb within layouts/application (0.8ms)
+I, [2018-05-10T23:44:19.319866 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T23:44:19.320225 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T23:44:19.320555 #6470]  INFO -- : [36d1621a-ed85-4794-a2ce-c5ea94bbf2c3] Completed 200 OK in 3ms (Views: 2.4ms)
+I, [2018-05-10T23:44:20.367209 #6470]  INFO -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4] Started POST "/matier/" for 127.0.0.1 at 2018-05-10 23:44:20 +0200
+I, [2018-05-10T23:44:20.367799 #6470]  INFO -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4] Processing by LandingpagesController#get_matier as HTML
+I, [2018-05-10T23:44:20.367849 #6470]  INFO -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8fwOrWtG0mkknQod5muXpK0o+tLk6qjLl+xuzlhNhJzTMdSxbWKoV537ZMWbQp2GTvSltSG//yt0EZ1UVFKdSg==", "commit"=>"Les détails"}
+I, [2018-05-10T23:44:20.369227 #6470]  INFO -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4] Completed 500 Internal Server Error in 1ms
+F, [2018-05-10T23:44:20.369707 #6470] FATAL -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4]   
+F, [2018-05-10T23:44:20.369788 #6470] FATAL -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4] NoMethodError (undefined method `[]' for nil:NilClass):
+F, [2018-05-10T23:44:20.369814 #6470] FATAL -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4]   
+F, [2018-05-10T23:44:20.369836 #6470] FATAL -- : [e25065a1-a547-4e6d-868a-c9b9bdd688a4] app/controllers/landingpages_controller.rb:7:in `get_matier'
+I, [2018-05-10T23:44:29.460442 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2] Started GET "/" for 127.0.0.1 at 2018-05-10 23:44:29 +0200
+I, [2018-05-10T23:44:29.460914 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:44:29.461565 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:44:29.462216 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2]   Rendered landingpages/home.html.erb within layouts/application (0.6ms)
+I, [2018-05-10T23:44:29.462792 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-05-10T23:44:29.463078 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-05-10T23:44:29.463218 #6470]  INFO -- : [b8fc7ce6-8745-4050-9653-34f9a83eb1c2] Completed 200 OK in 2ms (Views: 1.8ms)
+I, [2018-05-10T23:44:30.740989 #6470]  INFO -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f] Started POST "/matier/" for 127.0.0.1 at 2018-05-10 23:44:30 +0200
+I, [2018-05-10T23:44:30.741529 #6470]  INFO -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f] Processing by LandingpagesController#get_matier as HTML
+I, [2018-05-10T23:44:30.741584 #6470]  INFO -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0bint3P7+gi/C5E9VmYDS7h9iW6DJZMQaw9nDjnbZeLzdX2rdd+ANgZt/+UrTwlpW6HWCUZwxPCI8pSUNcR8NA==", "commit"=>"Les détails"}
+I, [2018-05-10T23:44:30.742915 #6470]  INFO -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f] Completed 500 Internal Server Error in 1ms
+F, [2018-05-10T23:44:30.743351 #6470] FATAL -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f]   
+F, [2018-05-10T23:44:30.743402 #6470] FATAL -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f] NoMethodError (undefined method `[]' for nil:NilClass):
+F, [2018-05-10T23:44:30.743429 #6470] FATAL -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f]   
+F, [2018-05-10T23:44:30.743450 #6470] FATAL -- : [bcc4bcbd-0ea0-4491-a375-bd779704b25f] app/controllers/landingpages_controller.rb:7:in `get_matier'
+I, [2018-05-10T23:57:34.574959 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749] Started GET "/" for 127.0.0.1 at 2018-05-10 23:57:34 +0200
+I, [2018-05-10T23:57:34.577454 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:57:34.587174 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:57:34.589756 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749]   Rendered landingpages/home.html.erb within layouts/application (2.4ms)
+I, [2018-05-10T23:57:34.592089 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749]   Rendered layouts/_header.html.erb (0.7ms)
+I, [2018-05-10T23:57:34.593277 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749]   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2018-05-10T23:57:34.593559 #7725]  INFO -- : [a550919e-4ccd-458b-a885-e36a69c20749] Completed 200 OK in 16ms (Views: 7.5ms)
+I, [2018-05-10T23:57:36.263631 #7725]  INFO -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144] Started POST "/my_index/" for 127.0.0.1 at 2018-05-10 23:57:36 +0200
+I, [2018-05-10T23:57:36.265173 #7725]  INFO -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144] Processing by MatiersController#index as HTML
+I, [2018-05-10T23:57:36.265303 #7725]  INFO -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"s0RlMpNzQdfrb4fqUvdVUIgYCiMmQQpRXXjtrv6aQSoIu+BMInmWNS8VLz+l7lUOYa6iFjXYgSV+YjnhDWeg9w==", "commit"=>"Les détails"}
+I, [2018-05-10T23:57:36.269031 #7725]  INFO -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]   Rendering matiers/index.html.erb within layouts/application
+D, [2018-05-10T23:57:36.275665 #7725] DEBUG -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]   [1m[36mMatier Load (0.4ms)[0m  [1m[34mSELECT "matiers".* FROM "matiers"[0m
+I, [2018-05-10T23:57:36.276389 #7725]  INFO -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]   Rendered matiers/index.html.erb within layouts/application (7.2ms)
+I, [2018-05-10T23:57:36.276662 #7725]  INFO -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144] Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.7ms)
+F, [2018-05-10T23:57:36.277729 #7725] FATAL -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]   
+F, [2018-05-10T23:57:36.277782 #7725] FATAL -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144] ActionView::Template::Error (SQLite3::SQLException: no such table: matiers: SELECT "matiers".* FROM "matiers"):
+F, [2018-05-10T23:57:36.278028 #7725] FATAL -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]     56: 		</div>
+[6777c6ac-5a84-4d87-8c1a-4da8920b1144]     57: 		<div class="col-md-3"></div>
+[6777c6ac-5a84-4d87-8c1a-4da8920b1144]     58: 		<div class="col-md-6" id="matier-content">
+[6777c6ac-5a84-4d87-8c1a-4da8920b1144]     59: 			<% @matier.each do |t| %>
+[6777c6ac-5a84-4d87-8c1a-4da8920b1144]     60: 				<div class="my_list"><%= link_to t.name, my_matier_path(t.id, anchor: 'matier-content') %></div> 
+[6777c6ac-5a84-4d87-8c1a-4da8920b1144]     61: 			<% end %>
+[6777c6ac-5a84-4d87-8c1a-4da8920b1144]     62: 		</div>
+F, [2018-05-10T23:57:36.278073 #7725] FATAL -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144]   
+F, [2018-05-10T23:57:36.278119 #7725] FATAL -- : [6777c6ac-5a84-4d87-8c1a-4da8920b1144] app/views/matiers/index.html.erb:59:in `_app_views_matiers_index_html_erb__4304298725830961743_50068920'
+I, [2018-05-10T23:57:39.623958 #7725]  INFO -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d] Started POST "/my_index/" for 127.0.0.1 at 2018-05-10 23:57:39 +0200
+I, [2018-05-10T23:57:39.624631 #7725]  INFO -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d] Processing by MatiersController#index as HTML
+I, [2018-05-10T23:57:39.624688 #7725]  INFO -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"s0RlMpNzQdfrb4fqUvdVUIgYCiMmQQpRXXjtrv6aQSoIu+BMInmWNS8VLz+l7lUOYa6iFjXYgSV+YjnhDWeg9w==", "commit"=>"Les détails"}
+I, [2018-05-10T23:57:39.625558 #7725]  INFO -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]   Rendering matiers/index.html.erb within layouts/application
+D, [2018-05-10T23:57:39.626430 #7725] DEBUG -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]   [1m[36mMatier Load (0.3ms)[0m  [1m[34mSELECT "matiers".* FROM "matiers"[0m
+I, [2018-05-10T23:57:39.626917 #7725]  INFO -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]   Rendered matiers/index.html.erb within layouts/application (1.3ms)
+I, [2018-05-10T23:57:39.627072 #7725]  INFO -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms)
+F, [2018-05-10T23:57:39.627877 #7725] FATAL -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]   
+F, [2018-05-10T23:57:39.627910 #7725] FATAL -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d] ActionView::Template::Error (SQLite3::SQLException: no such table: matiers: SELECT "matiers".* FROM "matiers"):
+F, [2018-05-10T23:57:39.628033 #7725] FATAL -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]     56: 		</div>
+[58b25eda-af57-4d0f-978c-90cbf1268c2d]     57: 		<div class="col-md-3"></div>
+[58b25eda-af57-4d0f-978c-90cbf1268c2d]     58: 		<div class="col-md-6" id="matier-content">
+[58b25eda-af57-4d0f-978c-90cbf1268c2d]     59: 			<% @matier.each do |t| %>
+[58b25eda-af57-4d0f-978c-90cbf1268c2d]     60: 				<div class="my_list"><%= link_to t.name, my_matier_path(t.id, anchor: 'matier-content') %></div> 
+[58b25eda-af57-4d0f-978c-90cbf1268c2d]     61: 			<% end %>
+[58b25eda-af57-4d0f-978c-90cbf1268c2d]     62: 		</div>
+F, [2018-05-10T23:57:39.628062 #7725] FATAL -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d]   
+F, [2018-05-10T23:57:39.628085 #7725] FATAL -- : [58b25eda-af57-4d0f-978c-90cbf1268c2d] app/views/matiers/index.html.erb:59:in `_app_views_matiers_index_html_erb__4304298725830961743_50068920'
+I, [2018-05-10T23:57:45.376730 #7725]  INFO -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975] Started POST "/my_index/" for 127.0.0.1 at 2018-05-10 23:57:45 +0200
+I, [2018-05-10T23:57:45.378983 #7725]  INFO -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975] Processing by MatiersController#index as HTML
+I, [2018-05-10T23:57:45.379191 #7725]  INFO -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"s0RlMpNzQdfrb4fqUvdVUIgYCiMmQQpRXXjtrv6aQSoIu+BMInmWNS8VLz+l7lUOYa6iFjXYgSV+YjnhDWeg9w==", "commit"=>"Les détails"}
+I, [2018-05-10T23:57:45.381182 #7725]  INFO -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]   Rendering matiers/index.html.erb within layouts/application
+D, [2018-05-10T23:57:45.382160 #7725] DEBUG -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]   [1m[36mMatier Load (0.3ms)[0m  [1m[34mSELECT "matiers".* FROM "matiers"[0m
+I, [2018-05-10T23:57:45.382677 #7725]  INFO -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]   Rendered matiers/index.html.erb within layouts/application (1.4ms)
+I, [2018-05-10T23:57:45.382817 #7725]  INFO -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms)
+F, [2018-05-10T23:57:45.383682 #7725] FATAL -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]   
+F, [2018-05-10T23:57:45.383718 #7725] FATAL -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975] ActionView::Template::Error (SQLite3::SQLException: no such table: matiers: SELECT "matiers".* FROM "matiers"):
+F, [2018-05-10T23:57:45.383868 #7725] FATAL -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]     56: 		</div>
+[46539dd7-5f1f-40ec-8380-e9e2d02cd975]     57: 		<div class="col-md-3"></div>
+[46539dd7-5f1f-40ec-8380-e9e2d02cd975]     58: 		<div class="col-md-6" id="matier-content">
+[46539dd7-5f1f-40ec-8380-e9e2d02cd975]     59: 			<% @matier.each do |t| %>
+[46539dd7-5f1f-40ec-8380-e9e2d02cd975]     60: 				<div class="my_list"><%= link_to t.name, my_matier_path(t.id, anchor: 'matier-content') %></div> 
+[46539dd7-5f1f-40ec-8380-e9e2d02cd975]     61: 			<% end %>
+[46539dd7-5f1f-40ec-8380-e9e2d02cd975]     62: 		</div>
+F, [2018-05-10T23:57:45.383909 #7725] FATAL -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975]   
+F, [2018-05-10T23:57:45.383935 #7725] FATAL -- : [46539dd7-5f1f-40ec-8380-e9e2d02cd975] app/views/matiers/index.html.erb:59:in `_app_views_matiers_index_html_erb__4304298725830961743_50068920'
+I, [2018-05-10T23:59:47.353575 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616] Started GET "/" for 127.0.0.1 at 2018-05-10 23:59:47 +0200
+I, [2018-05-10T23:59:47.355898 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616] Processing by LandingpagesController#home as HTML
+I, [2018-05-10T23:59:47.364440 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616]   Rendering landingpages/home.html.erb within layouts/application
+I, [2018-05-10T23:59:47.366740 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616]   Rendered landingpages/home.html.erb within layouts/application (2.2ms)
+I, [2018-05-10T23:59:47.369051 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616]   Rendered layouts/_header.html.erb (0.6ms)
+I, [2018-05-10T23:59:47.370068 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616]   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2018-05-10T23:59:47.370289 #7898]  INFO -- : [06dce066-f82a-453a-9d32-375770e44616] Completed 200 OK in 14ms (Views: 6.9ms)

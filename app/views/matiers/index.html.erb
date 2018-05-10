@@ -3,6 +3,7 @@
 		<div class= "col-md-12 body-top"><h3 class="title-font">2 formations de qualitées en accélérées et déjà plus de 300 étudiants !</h3></div>
 		<div class="col-md-6 body-program-box">
 			<h4>Revenir au home</h4>
+			<!-- Mettre un onglet déroulant -->
 			<div class="program-box">
 				<%= link_to "Acceuil", root_path %>
 			</div>
@@ -55,8 +56,9 @@
 		</div>
 		<div class="col-md-3"></div>
 		<div class="col-md-6" id="matier-content">
-			<h1 class="p-title"><%= @matier.name %>
-			<p class="p-font p-length"><%= @matier.content %></p>
+			<% @matier.each do |t| %>
+				<div class="my_list"><%= link_to t.name, my_matier_path(t.id, anchor: 'matier-content') %></div> 
+			<% end %>
 		</div>
 		<div class="col-md-2"></div>
 	</div>
