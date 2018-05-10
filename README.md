@@ -14,3 +14,7 @@ J'ai fait le projet seul, d'où le grand nombre de chose non réalisés. Il manq
 * Aucune indexation de mot clé pour le référencement
 * Contact et webmailing non fait
 * Aucune sécurité (pas de def en private dans les controllers ...)
+
+## Heroku du projet :
+* https://eduhacktion.herokuapp.com/
+Le heroku du projet n'est pas à jour mais reflète une bonne partie !
