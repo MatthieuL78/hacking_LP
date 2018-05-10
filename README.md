@@ -1,5 +1,5 @@
 # Hacking Landing page
-J'ai fait le projet seul, d'où le grand nombre de chose non réalisés. Il manque énormément de chose, j'ai simplement voulu travailler la partie front pour ce projet. 
+J'ai fait le projet seul, d'où le grand nombre de chose non réalisés. Il manque énormément de chose, j'ai simplement voulu travailler la partie front pour ce projet. Le github ne reflète pas le heroku poster (pas eu le temps de push) si vous voulez voir la dernirèe version : https://fast-brushlands-59369.herokuapp.com/
 
 ## Liste de doc :
 * Modele de la landing page : https://instapage.com/blog/education-landing-pages
@@ -16,5 +16,4 @@ J'ai fait le projet seul, d'où le grand nombre de chose non réalisés. Il manq
 * Aucune sécurité (pas de def en private dans les controllers ...)
 
 ## Heroku du projet :
-* https://eduhacktion.herokuapp.com/
-Le heroku du projet n'est pas à jour mais reflète une bonne partie !
+* https://fast-brushlands-59369.herokuapp.com/
